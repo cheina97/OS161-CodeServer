@@ -1,0 +1,3 @@
+# Host: OS/161-i386
+NATDEPFILES= fork-child.o inf-ptrace.o i386os161-nat.o
+NAT_FILE= solib.h

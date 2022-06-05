@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/arch/sys161/include",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/arch/mips/thread",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/arch/mips/include",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/arch/mips/include/kern",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/arch/mips/include",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/dev/generic",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/dev/lamebus",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/include",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/include/kern",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/include",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/fs/sfs",
+                "/home/crownlabs/os161/os161-base-2.0.3/kern/fs/semfs"
+            ],
+            "defines": [],
+            "compilerPath": "/home/crownlabs/os161/tools/bin/mips-harvard-os161-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

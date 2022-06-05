@@ -1,0 +1,3 @@
+# Host: OS/161-mips
+NATDEPFILES= fork-child.o inf-ptrace.o mipsos161-nat.o
+NAT_FILE= solib.h

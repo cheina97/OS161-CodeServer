@@ -1,0 +1,14 @@
+syntax: glob
+
+*~
+
+Makefile
+build-disk161
+build-doc
+build-hub161
+build-man
+build-stat161
+build-sys161
+build-trace161
+defs.mk
+test-cpu
