@@ -7,20 +7,13 @@ for ARGUMENT in "$@"; do
     fi
 done
 
-if [ "${CODETOGETHER_ENABLED}" == "true" ]; then
-    CODETOGETHER_ENABLED_ARG="--enable-proposed-api=genuitecllc.codetogether"
-else
-    CODETOGETHER_ENABLED_ARG=""
-fi
-
 exec \
 code-server \
 --disable-update-check \
 --auth none \
-"${CODETOGETHER_ENABLED_ARG}" \
---bind-addr 0.0.0.0:"${CROWNLABS_LISTEN_PORT}" \
+--bind-addr 0.0.0.0:5000 \
 --user-data-dir /config/data \
 --extensions-dir /config/extensions \
 --disable-telemetry \
 --new-window \
-/home/crownlabs/os161/os161-base-2.0.3/kern
+/home/os161user/os161/os161-base-2.0.3/kern

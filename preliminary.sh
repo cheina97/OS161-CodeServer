@@ -9,5 +9,3 @@ mkdir ~/os161/tools
 mkdir ~/os161/tools/bin
 
 echo 'export PATH=~/os161/tools/bin:$PATH' >> $HOME/.bashrc
-
-
