@@ -8,7 +8,7 @@ This allows you to run a complete **development environment** which **works out 
 
 Install [docker](https://docs.docker.com/engine/install/ubuntu/) and run:
 
-```docker run -d -p 5000:5000 ghcr/cheina97/os161-codeserver``` and then open ```localhost:5000``` in your browser.
+```docker run -d -p 5000:5000 ghcr.io/cheina97/os161-codeserver:latest``` and then open ```localhost:5000``` in your browser.
 
 ## How to delete the container
 
